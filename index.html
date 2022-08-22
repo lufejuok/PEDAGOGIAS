@@ -28,13 +28,30 @@
 
    <!-- Banner con Menú-->
 
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <img id="logo" src="img/Slider_Mesa_de_trabajo_1.jpg">    <!--Imagen de telefono en el banner movible  --> 
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/Logo_pedagogias_Mesa_de_trabajo_1.jpg" alt="" width="350" height="200"> 
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">QUIENES SOMOS</a>
+            <a class="nav-link" href="#">METODOLOGIAS ACTIVAS</a>
+            <a class="nav-link" href="#">EXPERIENCIAS SIGNIFICATIVAS</a>
+            <a class="nav-link" href="#">COMUNIDAD DE APRENDIZAJE</a>
+            <a class="nav-link" href="#">BOLETÍN</a>
             </div>
         </div>
-    </div>
+        <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+    </nav>
 
     <!--Body- Carousel  -->  
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
@@ -65,25 +82,26 @@
       </div>
    
   <!--Body- Video y texto  -->  
-      <div class="container">
-        <div class="row">
-              <div class="col-0">
-                  <img id="video" src="img/Slider_Mesa_de_trabajo_1.jpg">    <!--Imagen de telefono en el banner movible  --> 
-              </div>
-              <div class="col-5">
-                  <h1>PEDAGOGIAS <br> ACTIVAS <br> un universo de experiencias</h1>
-                  <p id="text">
-                      Contribuye.Contribuye.Contribuye.Contribuye.Contribuye.Contribuye.Contribuye.Contribuye.Contribuye.Contribuye.Contribuye.Contribuye.Contribuye.Contribuye.Contribuye.Contribuye.Contribuye.Contribuye.Contribuye.Contribuye.Contribuye.Contribuye.
-                  </p>    <!--Imagen de telefono en el banner movible  --> 
-              </div>
+    
+
+    <div class="row"  id="">
+        <div class="col">
+            <iframe  width="560" height="315" src="https://www.youtube.com/embed/Hc0qSWcrBh4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="col"> 
+            <h3>Pedagogias Activas </h3>
+            <h5>Un universo de experiencias</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
         </div>
     </div>
+
 <!--Footer  --> 
+
     <div class="row" id="footer">
-        <div class="col-1">
+        <div class="col">
             <p id="texto">Fundación Luker <br> Cra. 23, 64B, 33, piso 3, <br>Manizales, Caldas (Colombia) </p> 
         </div>
-        <div class="col-2"> 
+        <div class="col"> 
             <img id="logo" src="img/Logo_pedagogias_Mesa_de_trabajo_1.jpg">    <!--Imagen de telefono en el banner movible  --> 
         </div>
     </div>
